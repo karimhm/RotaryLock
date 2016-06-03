@@ -112,7 +112,7 @@ MSInitialize {
 	Class SBUIPasscodeLockNumberPad = objc_getClass("SBUIPasscodeLockNumberPad");
 	
 	/*
-	 initWithDefaultSize available on iOS 7
+	 initWithDefaultSize: available on iOS 7
 	 initWithDefaultSizeAndLightStyle: available on iOS 8 and later
 	 */
 	if(class_respondsToSelector(SBUIPasscodeLockNumberPad,@selector(initWithDefaultSizeAndLightStyle:))){
