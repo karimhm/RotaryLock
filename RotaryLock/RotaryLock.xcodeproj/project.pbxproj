@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A37771C1D010DBF00BE0E01 /* RotaryLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A37771A1D010DBF00BE0E01 /* RotaryLock.h */; };
+		8A37771D1D010DBF00BE0E01 /* RotaryLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37771B1D010DBF00BE0E01 /* RotaryLock.m */; };
+		8A3777201D010ED600BE0E01 /* RTPSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A37771E1D010ED600BE0E01 /* RTPSView.h */; };
+		8A3777211D010ED600BE0E01 /* RTPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37771F1D010ED600BE0E01 /* RTPSView.m */; };
+		8A3777241D010FA200BE0E01 /* RTRotaryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3777221D010FA200BE0E01 /* RTRotaryView.h */; };
+		8A3777251D010FA200BE0E01 /* RTRotaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3777231D010FA200BE0E01 /* RTRotaryView.m */; };
+		8A3777291D01100200BE0E01 /* RTRotaryWheel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3777271D01100200BE0E01 /* RTRotaryWheel.h */; };
+		8A37772A1D01100200BE0E01 /* RTRotaryWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3777281D01100200BE0E01 /* RTRotaryWheel.m */; };
+		8A37772D1D01115400BE0E01 /* RTWheelEnterButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A37772B1D01115400BE0E01 /* RTWheelEnterButton.h */; };
+		8A37772E1D01115400BE0E01 /* RTWheelEnterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37772C1D01115400BE0E01 /* RTWheelEnterButton.m */; };
+		8A3777311D01116E00BE0E01 /* RTWheelNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A37772F1D01116E00BE0E01 /* RTWheelNumber.h */; };
+		8A3777321D01116E00BE0E01 /* RTWheelNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3777301D01116E00BE0E01 /* RTWheelNumber.m */; };
+		8A3777351D0111A500BE0E01 /* RTWeakLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3777331D0111A500BE0E01 /* RTWeakLink.h */; };
+		8A3777361D0111A500BE0E01 /* RTWeakLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3777341D0111A500BE0E01 /* RTWeakLink.m */; };
+		8A3777381D01264F00BE0E01 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3777371D01264F00BE0E01 /* CydiaSubstrate.framework */; };
+		8A37773B1D013BEA00BE0E01 /* RTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A37773A1D013BEA00BE0E01 /* RTDefines.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A3777121D010C2800BE0E01 /* RotaryLock.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = RotaryLock.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A37771A1D010DBF00BE0E01 /* RotaryLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryLock.h; sourceTree = "<group>"; };
+		8A37771B1D010DBF00BE0E01 /* RotaryLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryLock.m; sourceTree = "<group>"; };
+		8A37771E1D010ED600BE0E01 /* RTPSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTPSView.h; sourceTree = "<group>"; };
+		8A37771F1D010ED600BE0E01 /* RTPSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTPSView.m; sourceTree = "<group>"; };
+		8A3777221D010FA200BE0E01 /* RTRotaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRotaryView.h; sourceTree = "<group>"; };
+		8A3777231D010FA200BE0E01 /* RTRotaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRotaryView.m; sourceTree = "<group>"; };
+		8A3777271D01100200BE0E01 /* RTRotaryWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRotaryWheel.h; sourceTree = "<group>"; };
+		8A3777281D01100200BE0E01 /* RTRotaryWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRotaryWheel.m; sourceTree = "<group>"; };
+		8A37772B1D01115400BE0E01 /* RTWheelEnterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTWheelEnterButton.h; sourceTree = "<group>"; };
+		8A37772C1D01115400BE0E01 /* RTWheelEnterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTWheelEnterButton.m; sourceTree = "<group>"; };
+		8A37772F1D01116E00BE0E01 /* RTWheelNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTWheelNumber.h; sourceTree = "<group>"; };
+		8A3777301D01116E00BE0E01 /* RTWheelNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTWheelNumber.m; sourceTree = "<group>"; };
+		8A3777331D0111A500BE0E01 /* RTWeakLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTWeakLink.h; sourceTree = "<group>"; };
+		8A3777341D0111A500BE0E01 /* RTWeakLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTWeakLink.m; sourceTree = "<group>"; };
+		8A3777371D01264F00BE0E01 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = /Library/Frameworks/CydiaSubstrate.framework; sourceTree = "<absolute>"; };
+		8A37773A1D013BEA00BE0E01 /* RTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A37770F1D010C2800BE0E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3777381D01264F00BE0E01 /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3777091D010C2800BE0E01 = {
+			isa = PBXGroup;
+			children = (
+				8A3777191D010D9300BE0E01 /* RotaryLock */,
+				8A3777391D01265900BE0E01 /* Frameworks */,
+				8A3777131D010C2800BE0E01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A3777131D010C2800BE0E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3777121D010C2800BE0E01 /* RotaryLock.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3777191D010D9300BE0E01 /* RotaryLock */ = {
+			isa = PBXGroup;
+			children = (
+				8A37771A1D010DBF00BE0E01 /* RotaryLock.h */,
+				8A37771B1D010DBF00BE0E01 /* RotaryLock.m */,
+				8A37771E1D010ED600BE0E01 /* RTPSView.h */,
+				8A37771F1D010ED600BE0E01 /* RTPSView.m */,
+				8A37773A1D013BEA00BE0E01 /* RTDefines.h */,
+				8A3777261D010FEF00BE0E01 /* Rotary */,
+			);
+			name = RotaryLock;
+			sourceTree = "<group>";
+		};
+		8A3777261D010FEF00BE0E01 /* Rotary */ = {
+			isa = PBXGroup;
+			children = (
+				8A3777221D010FA200BE0E01 /* RTRotaryView.h */,
+				8A3777231D010FA200BE0E01 /* RTRotaryView.m */,
+				8A3777271D01100200BE0E01 /* RTRotaryWheel.h */,
+				8A3777281D01100200BE0E01 /* RTRotaryWheel.m */,
+				8A37772B1D01115400BE0E01 /* RTWheelEnterButton.h */,
+				8A37772C1D01115400BE0E01 /* RTWheelEnterButton.m */,
+				8A37772F1D01116E00BE0E01 /* RTWheelNumber.h */,
+				8A3777301D01116E00BE0E01 /* RTWheelNumber.m */,
+				8A3777331D0111A500BE0E01 /* RTWeakLink.h */,
+				8A3777341D0111A500BE0E01 /* RTWeakLink.m */,
+			);
+			name = Rotary;
+			sourceTree = "<group>";
+		};
+		8A3777391D01265900BE0E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3777371D01264F00BE0E01 /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A3777101D010C2800BE0E01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3777201D010ED600BE0E01 /* RTPSView.h in Headers */,
+				8A3777291D01100200BE0E01 /* RTRotaryWheel.h in Headers */,
+				8A3777241D010FA200BE0E01 /* RTRotaryView.h in Headers */,
+				8A3777351D0111A500BE0E01 /* RTWeakLink.h in Headers */,
+				8A37771C1D010DBF00BE0E01 /* RotaryLock.h in Headers */,
+				8A37773B1D013BEA00BE0E01 /* RTDefines.h in Headers */,
+				8A37772D1D01115400BE0E01 /* RTWheelEnterButton.h in Headers */,
+				8A3777311D01116E00BE0E01 /* RTWheelNumber.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A3777111D010C2800BE0E01 /* RotaryLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3777161D010C2800BE0E01 /* Build configuration list for PBXNativeTarget "RotaryLock" */;
+			buildPhases = (
+				8A37770E1D010C2800BE0E01 /* Sources */,
+				8A37770F1D010C2800BE0E01 /* Frameworks */,
+				8A3777101D010C2800BE0E01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotaryLock;
+			productName = RotaryLock;
+			productReference = 8A3777121D010C2800BE0E01 /* RotaryLock.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A37770A1D010C2800BE0E01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Karim;
+				TargetAttributes = {
+					8A3777111D010C2800BE0E01 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8A37770D1D010C2800BE0E01 /* Build configuration list for PBXProject "RotaryLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A3777091D010C2800BE0E01;
+			productRefGroup = 8A3777131D010C2800BE0E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3777111D010C2800BE0E01 /* RotaryLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A37770E1D010C2800BE0E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A37771D1D010DBF00BE0E01 /* RotaryLock.m in Sources */,
+				8A3777211D010ED600BE0E01 /* RTPSView.m in Sources */,
+				8A3777321D01116E00BE0E01 /* RTWheelNumber.m in Sources */,
+				8A37772A1D01100200BE0E01 /* RTRotaryWheel.m in Sources */,
+				8A3777251D010FA200BE0E01 /* RTRotaryView.m in Sources */,
+				8A37772E1D01115400BE0E01 /* RTWheelEnterButton.m in Sources */,
+				8A3777361D0111A500BE0E01 /* RTWeakLink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A3777141D010C2800BE0E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A3777151D010C2800BE0E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3777171D010C2800BE0E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3777181D010C2800BE0E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = all;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A37770D1D010C2800BE0E01 /* Build configuration list for PBXProject "RotaryLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3777141D010C2800BE0E01 /* Debug */,
+				8A3777151D010C2800BE0E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3777161D010C2800BE0E01 /* Build configuration list for PBXNativeTarget "RotaryLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3777171D010C2800BE0E01 /* Debug */,
+				8A3777181D010C2800BE0E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A37770A1D010C2800BE0E01 /* Project object */;
+}
